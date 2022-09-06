@@ -8,7 +8,7 @@ html {
 
 body {
   height:100vh;
-  font-family: open sans;
+  font-family: 'Quicksand', sans-serif;
   display:flex;
   justify-content:center;
   align-items:center;
@@ -38,15 +38,22 @@ header {
 }
 
 h1 {
-  margin:2rem 0 1rem;
+  margin:2rem 0 0rem;
   color: black;
+  font-weight: 400;
+}
+
+h3 {
+  font-weight: 300;
+  margin: 1rem 0 3rem;
 }
 
 img {
   width:100%;
   position:relative;
   height: 50%;
-  transition:.25s .15s;
+  border-radius: 1rem 1rem 0rem 0rem;
+
 }
 
 dl {
@@ -88,10 +95,11 @@ dd:nth-of-type(2){
 
 p { 
   margin:0
+  font-family: 'Quicksand', sans-serif;
 }
 
 article > p {
-  padding:3rem 2rem;
+  padding:2rem 2rem;
   margin-top: 0;
   background:rgba(255,255,255, 0.5);
   text-align:center;
@@ -127,20 +135,24 @@ body.expand img {
   width:15em;
 }
 
-.instagram {
+.socials {
+  text-align: center;
+}
+
+span.instagram img {
     width: 10%;
 }
 
-.linkedin {
+span.linkedin img {
     width: 10%;
 }
 
 
-.portfolio {
+span.portfolio img {
     width: 10%;
 }
 
 
-.email {
+span.email img {
     width: 10%;
 }
