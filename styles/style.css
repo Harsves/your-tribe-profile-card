@@ -48,6 +48,11 @@ h3 {
   margin: 1rem 0 3rem;
 }
 
+h1:hover {
+  color: rgb(26, 197, 26);
+  transition: 1s;
+}
+
 img {
   width:100%;
   position:relative;
