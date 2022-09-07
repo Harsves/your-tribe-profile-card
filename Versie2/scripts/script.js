@@ -1,6 +1,24 @@
-const expandButton = document.querySelector('header button')
-expandButton.addEventListener('click', expand)
+$(document).ready(function(){  
 
-function expand () {
-  document.body.classList.toggle('expand')
-}
+
+$("#namebutton").click(function(){
+  $(".name") .hide();
+
+});
+
+$("#namebutton").click(function(){
+  $(".degree") .show();
+
+});
+
+$("#degreebutton").click(function(){
+  $(".degree") .hide();
+
+});
+
+$("#degreebutton").click(function(){
+  $(".photo") .show();
+
+});
+
+});

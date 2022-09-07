@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FDND Visitekaartje</title>
   <link rel="stylesheet" href="styles/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="scripts/script.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
@@ -12,14 +14,31 @@
 <body>
 
 <article>
-  <header>
-      
-<h1>Suus Harsveld</h1>
 
-<button>Klik</button>
+  <div class="name">
+      
+<h1>Suus</h1>
+
+<h3>Harsveld</h3>
+
+<button id="namebutton">Klik</button>
+</div>
+
+<div class="degree" style="display: none;">
+
+  <h1>Grafisch vormgever</h1>
+  <button id="degreebutton">Klik</button>
+
+</div>
+
+<div class="photo" style="display: none;">
+
+  <button id="photobutton">Klik</button>
+
+</div>
 
 </article>
 
-  <script src="script.js"></script>
+
 </body>
 </html>

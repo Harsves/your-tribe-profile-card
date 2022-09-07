@@ -14,18 +14,50 @@ body {
   align-items:center;
 }
 
-article {
+.name {
   width:50vw;
+  height: 50vh;
   max-width: 25em;
   min-width:20em;
-  display:flex;
+  display:block;
   flex-direction:column;
-  align-items:center;
-  justify-content:flex-end;
+  text-align:center;
+  margin: auto;
   box-shadow:0 0 20px 20px rgba(0,0,0,.1);
   border-radius:1rem;
   position: relative;
   transition:.25s;
+  padding-top: 40px; 
+}
+
+.name h1{
+  margin:2rem 0 0rem;
+  color: black;
+  font-weight: 400;
+  font-size: 7em;
+}
+
+.degree {
+  width:50vw;
+  height: 50vh;
+  max-width: 25em;
+  min-width:20em;
+  display:block;
+  flex-direction:column;
+  text-align:center;
+  margin: auto;
+  box-shadow:0 0 20px 20px rgba(0,0,0,.1);
+  border-radius:1rem;
+  position: relative;
+  transition:.25s;
+  padding-top: 40px; 
+}
+
+.degree h1{
+  margin:2rem 0 7rem;
+  color: black;
+  font-weight: 400;
+  font-size: 4em;
 }
 
 header {
@@ -33,24 +65,16 @@ header {
   flex-direction:column;
   justify-content:center;
   align-items:center;
-  justify-content:flex-end;
+  
   
 }
 
-h1 {
-  margin:2rem 0 0rem;
-  color: black;
-  font-weight: 400;
-}
+
 
 h3 {
   font-weight: 300;
-  margin: 1rem 0 3rem;
-}
-
-h1:hover {
-  color: rgb(26, 197, 26);
-  transition: 1s;
+  margin: 0rem 0 3rem;
+  font-size: 4em;
 }
 
 img {
