@@ -1,5 +1,6 @@
 * {
   box-sizing:border-box;
+  font-family: 'Quicksand', sans-serif;
 }
 
 html {
@@ -8,7 +9,7 @@ html {
 
 body {
   height:100vh;
-  font-family: 'Quicksand', sans-serif;
+  
   display:flex;
   justify-content:center;
   align-items:center;
@@ -54,7 +55,7 @@ body {
 }
 
 .degree h1{
-  margin:2rem 0 7rem;
+  margin:4rem 0 5rem;
   color: black;
   font-weight: 400;
   font-size: 4em;
@@ -69,12 +70,98 @@ header {
   
 }
 
+.photo {
+  background-image: url(image/portret.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:50vw;
+  height: 50vh;
+  max-width: 25em;
+  min-width:20em;
+  display:block;
+  flex-direction:column;
+  text-align:center;
+  margin: auto;
+  box-shadow:0 0 20px 20px rgba(0,0,0,.1);
+  border-radius:1rem;
+  position: relative;
+  transition:.25s;
+  padding-top: 40px; 
+}
 
+#photobutton {
+  margin-top: 19rem;
+
+}
+
+.about {
+  width:50vw;
+  height: 50vh;
+  max-width: 25em;
+  min-width:20em;
+  display:block;
+  flex-direction:column;
+  text-align:center;
+  margin: auto;
+  box-shadow:0 0 20px 20px rgba(0,0,0,.1);
+  border-radius:1rem;
+  position: relative;
+  transition:.25s;
+  padding-top: 40px; 
+}
+
+.about p {
+  font-size: 1.3em;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6rem;
+  margin-bottom: 5rem;
+}
+
+.socials {
+  width:50vw;
+  height: 50vh;
+  max-width: 25em;
+  min-width:20em;
+  display:block;
+  flex-direction:column;
+  text-align:center;
+  margin: auto;
+  box-shadow:0 0 20px 20px rgba(0,0,0,.1);
+  border-radius:1rem;
+  position: relative;
+  transition:.25s;
+  padding-top: 40px; 
+}
+
+span.instagram img {
+  width: 10%;
+}
+
+span.linkedin img {
+  width: 10%;
+}
+
+span.portfolio img {
+  width: 10%;
+}
+
+span.email img {
+  width: 10%;
+}
 
 h3 {
   font-weight: 300;
   margin: 0rem 0 3rem;
   font-size: 4em;
+}
+
+button {
+  background-color: #bad079;
+  border: 2px solid #2c351a;
+  width: 60px;
+  height: 30px;
 }
 
 img {
@@ -164,24 +251,25 @@ body.expand img {
   width:15em;
 }
 
-.socials {
-  text-align: center;
-}
-
 span.instagram img {
-    width: 10%;
+  width: auto;
+  height: 50px;
 }
 
 span.linkedin img {
-    width: 10%;
+  width: auto;
+  height: 50px;
 }
 
 
 span.portfolio img {
-    width: 10%;
+    width: auto;
+    height: 50px;
 }
 
 
 span.email img {
-    width: 10%;
+    width: auto;
+    height: 50px;
+
 }

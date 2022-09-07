@@ -21,4 +21,24 @@ $("#degreebutton").click(function(){
 
 });
 
+$("#photobutton").click(function(){
+  $(".photo") .hide();
+
+});
+
+$("#photobutton").click(function(){
+  $(".about") .show();
+
+});
+
+$("#aboutbutton").click(function(){
+  $(".about") .hide();
+
+});
+
+$("#aboutbutton").click(function(){
+  $(".socials") .show();
+
+});
+
 });
