@@ -32,13 +32,25 @@ body {
 }
 
 .name h1{
-  margin:2rem 0 0rem;
-  color: black;
+  margin: 2rem 0 0rem;
+  color: white;
   font-weight: 400;
   font-size: 7em;
+  background-color: black;
+  border-radius: 20px;
+}
+
+.name h3 {
+  font-weight: 300;
+  margin: 0rem 0 6rem;
+  font-size: 4em;
 }
 
 .degree {
+  background-image: url(image/Mouth.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
   width:50vw;
   height: 50vh;
   max-width: 25em;
@@ -55,8 +67,8 @@ body {
 }
 
 .degree h1{
-  margin:4rem 0 5rem;
-  color: black;
+  margin: 7rem 0 5rem;
+  color: white;
   font-weight: 400;
   font-size: 4em;
 }
@@ -90,7 +102,7 @@ header {
 }
 
 #photobutton {
-  margin-top: 19rem;
+  margin-top: 22rem;
 
 }
 
@@ -116,7 +128,7 @@ header {
   margin-left: auto;
   margin-right: auto;
   margin-top: 6rem;
-  margin-bottom: 5rem;
+  margin-bottom: 8rem;
 }
 
 .socials {
@@ -136,25 +148,34 @@ header {
 }
 
 span.instagram img {
-  width: 10%;
+  width: auto;
+  height: 50px;
+  margin-top: 10rem;
 }
 
 span.linkedin img {
-  width: 10%;
+  width: auto;
+  height: 50px;
+  margin-top: 10rem;
 }
+
 
 span.portfolio img {
-  width: 10%;
+    width: auto;
+    height: 50px;
+    margin-top: 10rem;
 }
+
 
 span.email img {
-  width: 10%;
+    width: auto;
+    height: 50px;
+    margin-top: 10rem;
+
 }
 
-h3 {
-  font-weight: 300;
-  margin: 0rem 0 3rem;
-  font-size: 4em;
+.socials button {
+  margin-top: 8.5rem;
 }
 
 button {
@@ -162,6 +183,7 @@ button {
   border: 2px solid #2c351a;
   width: 60px;
   height: 30px;
+  border-radius: 20px;
 }
 
 img {
@@ -251,25 +273,3 @@ body.expand img {
   width:15em;
 }
 
-span.instagram img {
-  width: auto;
-  height: 50px;
-}
-
-span.linkedin img {
-  width: auto;
-  height: 50px;
-}
-
-
-span.portfolio img {
-    width: auto;
-    height: 50px;
-}
-
-
-span.email img {
-    width: auto;
-    height: 50px;
-
-}

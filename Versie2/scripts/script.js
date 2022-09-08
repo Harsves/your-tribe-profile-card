@@ -41,4 +41,14 @@ $("#aboutbutton").click(function(){
 
 });
 
+$("#socialsbutton").click(function(){
+  $(".socials") .hide();
+
+});
+
+$("#socialsbutton").click(function(){
+  $(".name") .show();
+
+});
+
 });
