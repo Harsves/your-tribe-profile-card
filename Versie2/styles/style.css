@@ -32,7 +32,7 @@ body {
 }
 
 .name h1{
-  margin: 2rem 0 0rem;
+  margin: 4rem 0 0rem;
   color: white;
   font-weight: 400;
   font-size: 7em;
@@ -42,7 +42,7 @@ body {
 
 .name h3 {
   font-weight: 300;
-  margin: 0rem 0 6rem;
+  margin: 1rem 0 3rem;
   font-size: 4em;
 }
 
